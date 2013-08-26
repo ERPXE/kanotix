@@ -1,0 +1,8 @@
+LABEL KANOTIX64
+MENU LABEL ^Kanotix Live - x64
+KERNEL er/plugins/kanotix/x86_64/vmlinuz
+INITRD er/plugins/kanotix/x86_64/initrd.img
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/kanotix/x86_64/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Kanotix Live x32.
+ENDTEXT

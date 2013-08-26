@@ -1,0 +1,14 @@
+MENU BEGIN KANOTIX
+MENU LABEL ^Kanotix 2.6.38
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/kanotix/kanotix.png
+
+MENU INCLUDE er/plugins/kanotix/i386/kanotixmain.menu
+MENU INCLUDE er/plugins/kanotix/x86_64/kanotixmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
